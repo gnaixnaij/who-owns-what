@@ -1,8 +1,17 @@
-const POPULAR_SEARCHES = ["Alphabet", "Meta", "Amazon", "Microsoft", "BlackRock", "Disney", "Berkshire Hathaway", "Apple", "Walmart", "Elon Musk", "Warren Buffett", "Jeff Bezos"];
+const POPULAR_SEARCHES = [
+  "Walmart", "Amazon", "Apple", "Microsoft", "Alphabet", "Meta",
+  "Tesla", "Berkshire Hathaway", "Nvidia", "BlackRock",
+  "Elon Musk", "Warren Buffett", "Jeff Bezos", "Bill Gates"
+];
 
 let simulation = null;
 let currentCompany = null;
 let currentPerson = null;
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("loading").classList.add("hidden");
+  init();
+});
 
 function init() {
   renderPopularTags();
