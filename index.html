@@ -46,6 +46,47 @@
       </div>
     </section>
 
+    <section id="person-view" class="person-view hidden">
+      <div class="person-header">
+        <div class="person-info">
+          <h2 id="person-name"></h2>
+          <p id="person-title" class="person-title"></p>
+          <p id="person-networth" class="person-networth"></p>
+        </div>
+        <div class="person-actions">
+          <button id="btn-person-back" class="btn-secondary">← Back</button>
+        </div>
+      </div>
+
+      <div class="person-details">
+        <div class="detail-card">
+          <h3>About</h3>
+          <p id="person-description"></p>
+        </div>
+        <div class="detail-card">
+          <h3>Corporate Connections</h3>
+          <div id="person-connections"></div>
+        </div>
+      </div>
+
+      <div class="graph-section">
+        <div class="graph-header">
+          <h3>Influence Network</h3>
+          <div class="graph-controls">
+            <button id="btn-person-reset-zoom" class="btn-small">Reset View</button>
+          </div>
+        </div>
+        <div id="person-graph-container" class="graph-container">
+          <svg id="person-graph-svg"></svg>
+        </div>
+        <div class="graph-legend">
+          <span class="legend-item"><span class="dot dot-person"></span> Person</span>
+          <span class="legend-item"><span class="dot dot-parent"></span> Company</span>
+          <span class="legend-item"><span class="dot dot-subsidiary"></span> Subsidiary</span>
+        </div>
+      </div>
+    </section>
+
     <section id="company-view" class="company-view hidden">
       <div class="company-header">
         <div class="company-info">
@@ -104,6 +145,7 @@
     <p><a href="https://github.com/gnaixnaij/who-owns-what" target="_blank">GitHub</a> · <a href="https://ko-fi.com/gnaixnaij" target="_blank">Support</a></p>
   </footer>
 
+  <script src="data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
