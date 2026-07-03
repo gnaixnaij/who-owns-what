@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Fortune 500 2024",
-    "total": 511,
+    "total": 516,
     "lastUpdated": "2024",
     "note": "Top 100+ tech companies have complete data. Total: 511 companies."
   },
@@ -8828,6 +8828,111 @@
       "keyPeople": [
         {
           "name": "Antonio Neri",
+          "role": "CEO"
+        }
+      ]
+    },
+    "amd": {
+      "id": "amd",
+      "name": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "cik": "0000002488",
+      "industry": "Semiconductors",
+      "sector": "Technology",
+      "hq": "Santa Clara, CA",
+      "ceo": "Lisa Su",
+      "revenue": "$23.6B",
+      "employees": "26,000",
+      "founded": "1969",
+      "description": "Semiconductor company (CPU and GPU)",
+      "subsidiaries": [],
+      "keyPeople": [
+        {
+          "name": "Lisa Su",
+          "role": "CEO"
+        }
+      ]
+    },
+    "sq": {
+      "id": "sq",
+      "name": "Block (Square)",
+      "ticker": "SQ",
+      "cik": "0001512673",
+      "industry": "Financial Technology",
+      "sector": "Technology",
+      "hq": "San Francisco, CA",
+      "ceo": "Jack Dorsey",
+      "revenue": "$22.5B",
+      "employees": "12,000",
+      "founded": "2009",
+      "description": "Square and Cash App",
+      "subsidiaries": [],
+      "keyPeople": [
+        {
+          "name": "Jack Dorsey",
+          "role": "CEO"
+        }
+      ]
+    },
+    "zm": {
+      "id": "zm",
+      "name": "Zoom Video Communications",
+      "ticker": "ZM",
+      "cik": "0001585521",
+      "industry": "Video Communications",
+      "sector": "Technology",
+      "hq": "San Jose, CA",
+      "ceo": "Eric Yuan",
+      "revenue": "$4.7B",
+      "employees": "7,000",
+      "founded": "2011",
+      "description": "Video conferencing",
+      "subsidiaries": [],
+      "keyPeople": [
+        {
+          "name": "Eric Yuan",
+          "role": "CEO"
+        }
+      ]
+    },
+    "te": {
+      "id": "te",
+      "name": "Terex",
+      "ticker": "TEX",
+      "cik": "0000030591",
+      "industry": "Industrial",
+      "sector": "Industrials",
+      "hq": "Norwalk, CT",
+      "ceo": "Simon Meester",
+      "revenue": "$5.2B",
+      "employees": "10,000",
+      "founded": "1933",
+      "description": "Lifting and material handling",
+      "subsidiaries": [],
+      "keyPeople": [
+        {
+          "name": "Simon Meester",
+          "role": "CEO"
+        }
+      ]
+    },
+    "saic": {
+      "id": "saic",
+      "name": "Science Applications International Corp",
+      "ticker": "SAIC",
+      "cik": "0001571123",
+      "industry": "Defense IT",
+      "sector": "Technology",
+      "hq": "Reston, VA",
+      "ceo": "Toni Townes-Whitley",
+      "revenue": "$7.3B",
+      "employees": "24,000",
+      "founded": "1969",
+      "description": "Government IT services",
+      "subsidiaries": [],
+      "keyPeople": [
+        {
+          "name": "Toni Townes-Whitley",
           "role": "CEO"
         }
       ]
