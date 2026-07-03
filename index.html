@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Who Owns What? — Corporate Transparency</title>
+  <meta name="description" content="See who really controls what. Interactive corporate ownership maps using SEC EDGAR data.">
+  <meta property="og:title" content="Who Owns What?">
+  <meta property="og:description" content="Interactive corporate ownership maps — see who really controls what.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏢</text></svg>">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🏢</span>
+        <h1>Who Owns What?</h1>
+      </div>
+      <p class="tagline">Corporate ownership transparency — see who really controls what</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search companies, brands, or executives..." autocomplete="off">
+        <button id="search-btn">Search</button>
+      </div>
+      <div id="search-results" class="search-results hidden"></div>
+    </section>
+
+    <section id="landing" class="landing">
+      <div class="landing-content">
+        <h2>Explore Corporate Ownership</h2>
+        <p>Search any company to see its ownership structure, subsidiaries, and influence network — all visualized as an interactive graph.</p>
+        <div class="stats-row">
+          <div class="stat"><span id="stat-companies">0</span><label>Companies</label></div>
+          <div class="stat"><span id="stat-subsidiaries">0</span><label>Subsidiaries</label></div>
+          <div class="stat"><span id="stat-connections">0</span><label>Connections</label></div>
+        </div>
+        <h3>Popular Searches</h3>
+        <div class="popular-tags" id="popular-tags"></div>
+      </div>
+    </section>
+
+    <section id="company-view" class="company-view hidden">
+      <div class="company-header">
+        <div class="company-info">
+          <h2 id="company-name"></h2>
+          <div class="company-meta">
+            <span id="company-ticker" class="badge"></span>
+            <span id="company-cik" class="badge"></span>
+            <span id="company-industry" class="badge"></span>
+          </div>
+        </div>
+        <div class="company-actions">
+          <button id="btn-edgar" class="btn-secondary" title="View on SEC EDGAR">SEC EDGAR ↗</button>
+          <button id="btn-back" class="btn-secondary">← Back</button>
+        </div>
+      </div>
+
+      <div class="company-details">
+        <div class="detail-card">
+          <h3>Key Facts</h3>
+          <div class="facts-grid" id="facts-grid"></div>
+        </div>
+        <div class="detail-card">
+          <h3>Ownership Summary</h3>
+          <div id="ownership-summary"></div>
+        </div>
+      </div>
+
+      <div class="graph-section">
+        <div class="graph-header">
+          <h3>Ownership Map</h3>
+          <div class="graph-controls">
+            <button id="btn-reset-zoom" class="btn-small">Reset View</button>
+            <button id="btn-expand-all" class="btn-small">Expand All</button>
+          </div>
+        </div>
+        <div id="graph-container" class="graph-container">
+          <svg id="graph-svg"></svg>
+        </div>
+        <div class="graph-legend">
+          <span class="legend-item"><span class="dot dot-parent"></span> Parent Company</span>
+          <span class="legend-item"><span class="dot dot-subsidiary"></span> Subsidiary</span>
+          <span class="legend-item"><span class="dot dot-brand"></span> Brand / Product</span>
+          <span class="legend-item"><span class="dot dot-person"></span> Key Person</span>
+        </div>
+      </div>
+
+      <div class="subsidiaries-section">
+        <h3>Subsidiaries & Brands</h3>
+        <div id="subsidiaries-list" class="subsidiaries-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Data from <a href="https://www.sec.gov/edgar" target="_blank">SEC EDGAR</a> & public records. Built for transparency.</p>
+    <p><a href="https://github.com/gnaixnaij/who-owns-what" target="_blank">GitHub</a> · <a href="https://ko-fi.com/gnaixnaij" target="_blank">Support</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
