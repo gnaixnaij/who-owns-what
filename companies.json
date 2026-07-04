@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "Fortune 500 2024",
-    "total": 516,
-    "lastUpdated": "2024",
-    "note": "Top 100+ tech companies have complete data. Total: 511 companies."
+    "total": 515,
+    "lastUpdated": "2025",
+    "note": "Top companies have complete subsidiary data. Total: 515 companies."
   },
   "companies": {
     "wmt": {
@@ -19,7 +19,32 @@
       "revenue": "$648.1B",
       "employees": "2,100,000",
       "description": "World's largest company by revenue",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Sam's Club",
+          "type": "subsidiary",
+          "desc": "Membership warehouse club",
+          "stake": "100%"
+        },
+        {
+          "name": "Flipkart",
+          "type": "subsidiary",
+          "desc": "Indian e-commerce platform",
+          "stake": "77%"
+        },
+        {
+          "name": "Walmart International",
+          "type": "subsidiary",
+          "desc": "Overseas retail operations",
+          "stake": "100%"
+        },
+        {
+          "name": "Massmart",
+          "type": "subsidiary",
+          "desc": "South African retail chain",
+          "stake": "51%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Doug McMillon",
@@ -40,7 +65,62 @@
       "revenue": "$574.8B",
       "employees": "1,525,000",
       "description": "E-commerce, cloud computing, digital streaming",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Whole Foods Market",
+          "type": "subsidiary",
+          "desc": "Organic grocery chain",
+          "stake": "100%"
+        },
+        {
+          "name": "AWS",
+          "type": "brand",
+          "desc": "Cloud computing platform",
+          "stake": "100%"
+        },
+        {
+          "name": "Twitch",
+          "type": "subsidiary",
+          "desc": "Live game streaming platform",
+          "stake": "100%"
+        },
+        {
+          "name": "IMDb",
+          "type": "subsidiary",
+          "desc": "Movie and TV database",
+          "stake": "100%"
+        },
+        {
+          "name": "Zappos",
+          "type": "subsidiary",
+          "desc": "Online shoe and clothing retailer",
+          "stake": "100%"
+        },
+        {
+          "name": "Ring",
+          "type": "subsidiary",
+          "desc": "Smart home security",
+          "stake": "100%"
+        },
+        {
+          "name": "Audible",
+          "type": "subsidiary",
+          "desc": "Audiobook and podcast platform",
+          "stake": "100%"
+        },
+        {
+          "name": "MGM",
+          "type": "subsidiary",
+          "desc": "Film and television studio",
+          "stake": "100%"
+        },
+        {
+          "name": "Zoox",
+          "type": "subsidiary",
+          "desc": "Self-driving car technology",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Andy Jassy",
@@ -61,7 +141,26 @@
       "revenue": "$383.3B",
       "employees": "164,000",
       "description": "Consumer electronics, software, services",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Beats Electronics",
+          "type": "subsidiary",
+          "desc": "Premium audio brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Shazam",
+          "type": "subsidiary",
+          "desc": "Music recognition app",
+          "stake": "100%"
+        },
+        {
+          "name": "Intel Modem Business",
+          "type": "subsidiary",
+          "desc": "Cellular modem division",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Tim Cook",
@@ -82,7 +181,20 @@
       "revenue": "$371.6B",
       "employees": "440,000",
       "description": "Healthcare and insurance conglomerate",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "UnitedHealthcare",
+          "type": "brand",
+          "desc": "Health insurance division",
+          "stake": "100%"
+        },
+        {
+          "name": "Optum",
+          "type": "subsidiary",
+          "desc": "Health services platform",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Andrew Witty",
@@ -103,7 +215,80 @@
       "revenue": "$364.5B",
       "employees": "396,500",
       "description": "Multinational conglomerate holding company",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "GEICO",
+          "type": "subsidiary",
+          "desc": "Auto insurance company",
+          "stake": "100%"
+        },
+        {
+          "name": "BNSF Railway",
+          "type": "subsidiary",
+          "desc": "Class I freight railroad",
+          "stake": "100%"
+        },
+        {
+          "name": "Duracell",
+          "type": "subsidiary",
+          "desc": "Battery manufacturer",
+          "stake": "100%"
+        },
+        {
+          "name": "Dairy Queen",
+          "type": "subsidiary",
+          "desc": "Fast food ice cream chain",
+          "stake": "100%"
+        },
+        {
+          "name": "See's Candies",
+          "type": "subsidiary",
+          "desc": "Chocolate and candy manufacturer",
+          "stake": "100%"
+        },
+        {
+          "name": "Fruit of the Loom",
+          "type": "subsidiary",
+          "desc": "Apparel and underwear manufacturer",
+          "stake": "100%"
+        },
+        {
+          "name": "Precision Castparts",
+          "type": "subsidiary",
+          "desc": "Aerospace metal components",
+          "stake": "100%"
+        },
+        {
+          "name": "Lubrizol",
+          "type": "subsidiary",
+          "desc": "Specialty chemical company",
+          "stake": "100%"
+        },
+        {
+          "name": "Clayton Homes",
+          "type": "subsidiary",
+          "desc": "Manufactured housing builder",
+          "stake": "100%"
+        },
+        {
+          "name": "NetJets",
+          "type": "subsidiary",
+          "desc": "Fractional aircraft ownership",
+          "stake": "100%"
+        },
+        {
+          "name": "Benjamin Moore",
+          "type": "subsidiary",
+          "desc": "Paint and coatings manufacturer",
+          "stake": "100%"
+        },
+        {
+          "name": "FlightSafety International",
+          "type": "subsidiary",
+          "desc": "Aviation training",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Warren Buffett",
@@ -124,7 +309,26 @@
       "revenue": "$357.8B",
       "employees": "259,500",
       "description": "Pharmacy and healthcare company",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "CVS Pharmacy",
+          "type": "brand",
+          "desc": "Retail pharmacy chain",
+          "stake": "100%"
+        },
+        {
+          "name": "Aetna",
+          "type": "subsidiary",
+          "desc": "Health insurance provider",
+          "stake": "100%"
+        },
+        {
+          "name": "Caremark",
+          "type": "brand",
+          "desc": "Pharmacy benefit management",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Karen Lynch",
@@ -166,7 +370,62 @@
       "revenue": "$307.4B",
       "employees": "182,502",
       "description": "Parent company of Google",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "YouTube",
+          "type": "subsidiary",
+          "desc": "Video sharing platform",
+          "stake": "100%"
+        },
+        {
+          "name": "Waymo",
+          "type": "subsidiary",
+          "desc": "Self-driving car company",
+          "stake": "100%"
+        },
+        {
+          "name": "Verily",
+          "type": "subsidiary",
+          "desc": "Life sciences research",
+          "stake": "100%"
+        },
+        {
+          "name": "DeepMind",
+          "type": "subsidiary",
+          "desc": "Artificial intelligence research",
+          "stake": "100%"
+        },
+        {
+          "name": "Waze",
+          "type": "subsidiary",
+          "desc": "GPS navigation app",
+          "stake": "100%"
+        },
+        {
+          "name": "Fitbit",
+          "type": "subsidiary",
+          "desc": "Wearable fitness trackers",
+          "stake": "100%"
+        },
+        {
+          "name": "Nest",
+          "type": "subsidiary",
+          "desc": "Smart home products",
+          "stake": "100%"
+        },
+        {
+          "name": "Looker",
+          "type": "subsidiary",
+          "desc": "Data analytics platform",
+          "stake": "100%"
+        },
+        {
+          "name": "Mandiant",
+          "type": "subsidiary",
+          "desc": "Cybersecurity incident response",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Sundar Pichai",
@@ -187,7 +446,20 @@
       "revenue": "$276.7B",
       "employees": "48,000",
       "description": "Pharmaceutical distribution",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "McKesson Pharmaceutical",
+          "type": "brand",
+          "desc": "Pharmaceutical distribution",
+          "stake": "100%"
+        },
+        {
+          "name": "McKesson Technology Solutions",
+          "type": "brand",
+          "desc": "Healthcare IT services",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Brian Tyler",
@@ -250,7 +522,20 @@
       "revenue": "$158.1B",
       "employees": "309,926",
       "description": "Largest US bank by assets",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Chase",
+          "type": "brand",
+          "desc": "Consumer banking division",
+          "stake": "100%"
+        },
+        {
+          "name": "J.P. Morgan",
+          "type": "brand",
+          "desc": "Investment banking division",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Jamie Dimon",
@@ -271,7 +556,50 @@
       "revenue": "$211.9B",
       "employees": "221,000",
       "description": "Software, cloud, hardware",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "LinkedIn",
+          "type": "subsidiary",
+          "desc": "Professional social network",
+          "stake": "100%"
+        },
+        {
+          "name": "GitHub",
+          "type": "subsidiary",
+          "desc": "Code hosting and collaboration",
+          "stake": "100%"
+        },
+        {
+          "name": "Activision Blizzard",
+          "type": "subsidiary",
+          "desc": "Video game publisher",
+          "stake": "100%"
+        },
+        {
+          "name": "Skype",
+          "type": "subsidiary",
+          "desc": "Video calling and messaging",
+          "stake": "100%"
+        },
+        {
+          "name": "Mojang",
+          "type": "subsidiary",
+          "desc": "Minecraft video game developer",
+          "stake": "100%"
+        },
+        {
+          "name": "Nuance Communications",
+          "type": "subsidiary",
+          "desc": "AI speech recognition",
+          "stake": "100%"
+        },
+        {
+          "name": "Yammer",
+          "type": "subsidiary",
+          "desc": "Enterprise social networking",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Satya Nadella",
@@ -355,7 +683,26 @@
       "revenue": "$176.2B",
       "employees": "177,000",
       "description": "Automobile manufacturer",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Ford Credit",
+          "type": "subsidiary",
+          "desc": "Auto financing division",
+          "stake": "100%"
+        },
+        {
+          "name": "Lincoln",
+          "type": "brand",
+          "desc": "Luxury vehicle brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Ford Performance",
+          "type": "brand",
+          "desc": "High-performance vehicle division",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Jim Farley",
@@ -376,7 +723,20 @@
       "revenue": "$100.2B",
       "employees": "213,000",
       "description": "Major US bank",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Merrill Lynch",
+          "type": "brand",
+          "desc": "Wealth management division",
+          "stake": "100%"
+        },
+        {
+          "name": "Bank of America Securities",
+          "type": "brand",
+          "desc": "Investment banking division",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Brian Moynihan",
@@ -397,7 +757,38 @@
       "revenue": "$171.8B",
       "employees": "163,000",
       "description": "Automobile manufacturer",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Chevrolet",
+          "type": "brand",
+          "desc": "Mainstream vehicle brand",
+          "stake": "100%"
+        },
+        {
+          "name": "GMC",
+          "type": "brand",
+          "desc": "Truck and SUV brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Cadillac",
+          "type": "brand",
+          "desc": "Luxury vehicle brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Buick",
+          "type": "brand",
+          "desc": "Premium vehicle brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Cruise",
+          "type": "subsidiary",
+          "desc": "Self-driving car technology",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Mary Barra",
@@ -439,7 +830,20 @@
       "revenue": "$78.5B",
       "employees": "240,000",
       "description": "Global investment bank",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Citibank",
+          "type": "brand",
+          "desc": "Consumer banking division",
+          "stake": "100%"
+        },
+        {
+          "name": "Citi Global Markets",
+          "type": "brand",
+          "desc": "Institutional banking division",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Jane Fraser",
@@ -481,7 +885,20 @@
       "revenue": "$157.4B",
       "employees": "471,000",
       "description": "Home improvement retail",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "The Home Depot Pro",
+          "type": "brand",
+          "desc": "Professional contractor division",
+          "stake": "100%"
+        },
+        {
+          "name": "Home Depot Rental",
+          "type": "brand",
+          "desc": "Tool and equipment rental",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Ted Decker",
@@ -628,7 +1045,32 @@
       "revenue": "$134.9B",
       "employees": "67,317",
       "description": "Social media and technology",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Instagram",
+          "type": "subsidiary",
+          "desc": "Photo and video sharing app",
+          "stake": "100%"
+        },
+        {
+          "name": "WhatsApp",
+          "type": "subsidiary",
+          "desc": "Encrypted messaging app",
+          "stake": "100%"
+        },
+        {
+          "name": "Oculus",
+          "type": "subsidiary",
+          "desc": "Virtual reality hardware and software",
+          "stake": "100%"
+        },
+        {
+          "name": "Mapillary",
+          "type": "subsidiary",
+          "desc": "Street-level imagery platform",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Mark Zuckerberg",
@@ -649,7 +1091,32 @@
       "revenue": "$134.0B",
       "employees": "105,400",
       "description": "Telecommunications",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Verizon Wireless",
+          "type": "brand",
+          "desc": "Mobile network service",
+          "stake": "100%"
+        },
+        {
+          "name": "Verizon Fios",
+          "type": "brand",
+          "desc": "Fiber optic internet and TV",
+          "stake": "100%"
+        },
+        {
+          "name": "TracFone Wireless",
+          "type": "subsidiary",
+          "desc": "Prepaid mobile provider",
+          "stake": "100%"
+        },
+        {
+          "name": "Yahoo",
+          "type": "subsidiary",
+          "desc": "Internet services and media",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Hans Vestberg",
@@ -670,7 +1137,32 @@
       "revenue": "$122.4B",
       "employees": "150,000",
       "description": "Telecommunications",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "AT&T Fiber",
+          "type": "brand",
+          "desc": "Fiber optic internet service",
+          "stake": "100%"
+        },
+        {
+          "name": "AT&T Wireless",
+          "type": "brand",
+          "desc": "Mobile network service",
+          "stake": "100%"
+        },
+        {
+          "name": "FirstNet",
+          "type": "brand",
+          "desc": "Public safety communications network",
+          "stake": "100%"
+        },
+        {
+          "name": "Yellow Pages",
+          "type": "subsidiary",
+          "desc": "Business directory",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "John Stankey",
@@ -691,7 +1183,26 @@
       "revenue": "$121.6B",
       "employees": "186,000",
       "description": "Media and telecommunications",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "NBCUniversal",
+          "type": "subsidiary",
+          "desc": "Media and entertainment conglomerate",
+          "stake": "100%"
+        },
+        {
+          "name": "Sky Group",
+          "type": "subsidiary",
+          "desc": "European media and telecom",
+          "stake": "100%"
+        },
+        {
+          "name": "Xfinity",
+          "type": "brand",
+          "desc": "Cable internet and TV service",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Brian Roberts",
@@ -712,7 +1223,20 @@
       "revenue": "$82.6B",
       "employees": "227,000",
       "description": "Major US bank",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Wells Fargo Securities",
+          "type": "brand",
+          "desc": "Investment banking division",
+          "stake": "100%"
+        },
+        {
+          "name": "Wells Fargo Advisors",
+          "type": "brand",
+          "desc": "Wealth management division",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Charles Scharf",
@@ -733,7 +1257,20 @@
       "revenue": "$46.3B",
       "employees": "45,000",
       "description": "Investment bank",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Goldman Sachs Asset Management",
+          "type": "brand",
+          "desc": "Investment management division",
+          "stake": "100%"
+        },
+        {
+          "name": "Marcus",
+          "type": "brand",
+          "desc": "Consumer banking platform",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "David Solomon",
@@ -754,7 +1291,26 @@
       "revenue": "$107.4B",
       "employees": "415,000",
       "description": "Retail corporation",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Target Circle",
+          "type": "brand",
+          "desc": "Loyalty program",
+          "stake": "100%"
+        },
+        {
+          "name": "Shipt",
+          "type": "subsidiary",
+          "desc": "Same-day delivery service",
+          "stake": "100%"
+        },
+        {
+          "name": "Target Sourcing",
+          "type": "subsidiary",
+          "desc": "Global sourcing operations",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Brian Cornell",
@@ -817,7 +1373,26 @@
       "revenue": "$96.8B",
       "employees": "140,473",
       "description": "Electric vehicles and clean energy",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "SolarCity",
+          "type": "subsidiary",
+          "desc": "Solar energy systems",
+          "stake": "100%"
+        },
+        {
+          "name": "Maxwell Technologies",
+          "type": "subsidiary",
+          "desc": "Ultracapacitor and battery tech",
+          "stake": "100%"
+        },
+        {
+          "name": "Grohmann Automation",
+          "type": "subsidiary",
+          "desc": "Automation engineering",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Elon Musk",
@@ -838,7 +1413,20 @@
       "revenue": "$54.2B",
       "employees": "80,000",
       "description": "Investment bank",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "E-Trade",
+          "type": "subsidiary",
+          "desc": "Online brokerage platform",
+          "stake": "100%"
+        },
+        {
+          "name": "Morgan Stanley Wealth Management",
+          "type": "brand",
+          "desc": "Wealth management division",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Ted Pick",
@@ -859,7 +1447,44 @@
       "revenue": "$85.2B",
       "employees": "131,900",
       "description": "Pharmaceutical and consumer goods",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Janssen Pharmaceuticals",
+          "type": "subsidiary",
+          "desc": "Pharmaceutical division",
+          "stake": "100%"
+        },
+        {
+          "name": "Tylenol",
+          "type": "brand",
+          "desc": "Pain relief medication",
+          "stake": "100%"
+        },
+        {
+          "name": "Neutrogena",
+          "type": "brand",
+          "desc": "Skincare brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Band-Aid",
+          "type": "brand",
+          "desc": "Adhesive bandages",
+          "stake": "100%"
+        },
+        {
+          "name": "Listerine",
+          "type": "brand",
+          "desc": "Mouthwash brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Johnson's Baby",
+          "type": "brand",
+          "desc": "Baby care products",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Joaquin Duato",
@@ -922,7 +1547,26 @@
       "revenue": "$67.1B",
       "employees": "107,700",
       "description": "Construction and mining equipment",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Solar Turbines",
+          "type": "subsidiary",
+          "desc": "Industrial gas turbines",
+          "stake": "100%"
+        },
+        {
+          "name": "Progress Rail",
+          "type": "subsidiary",
+          "desc": "Railway locomotives and equipment",
+          "stake": "100%"
+        },
+        {
+          "name": "Cat Financial",
+          "type": "subsidiary",
+          "desc": "Equipment financing services",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Jim Umpleby",
@@ -943,7 +1587,50 @@
       "revenue": "$91.5B",
       "employees": "318,000",
       "description": "Food and beverage corporation",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Frito-Lay",
+          "type": "subsidiary",
+          "desc": "Snack food division",
+          "stake": "100%"
+        },
+        {
+          "name": "Quaker Oats",
+          "type": "subsidiary",
+          "desc": "Cereal and grain products",
+          "stake": "100%"
+        },
+        {
+          "name": "Gatorade",
+          "type": "brand",
+          "desc": "Sports drink brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Tropicana",
+          "type": "subsidiary",
+          "desc": "Juice brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Mountain Dew",
+          "type": "brand",
+          "desc": "Citrus soft drink",
+          "stake": "100%"
+        },
+        {
+          "name": "Cheetos",
+          "type": "brand",
+          "desc": "Cheese-flavored snack",
+          "stake": "100%"
+        },
+        {
+          "name": "Doritos",
+          "type": "brand",
+          "desc": "Tortilla chip brand",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Ramon Laguarta",
@@ -964,7 +1651,68 @@
       "revenue": "$88.9B",
       "employees": "220,000",
       "description": "Entertainment and media conglomerate",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Marvel Studios",
+          "type": "subsidiary",
+          "desc": "Superhero film and TV production",
+          "stake": "100%"
+        },
+        {
+          "name": "Lucasfilm",
+          "type": "subsidiary",
+          "desc": "Star Wars film production",
+          "stake": "100%"
+        },
+        {
+          "name": "Pixar",
+          "type": "subsidiary",
+          "desc": "Computer animation studio",
+          "stake": "100%"
+        },
+        {
+          "name": "ESPN",
+          "type": "subsidiary",
+          "desc": "Sports broadcasting network",
+          "stake": "80%"
+        },
+        {
+          "name": "ABC",
+          "type": "subsidiary",
+          "desc": "Broadcast television network",
+          "stake": "100%"
+        },
+        {
+          "name": "National Geographic Partners",
+          "type": "subsidiary",
+          "desc": "Media and education joint venture",
+          "stake": "73%"
+        },
+        {
+          "name": "Hulu",
+          "type": "subsidiary",
+          "desc": "Streaming service",
+          "stake": "67%"
+        },
+        {
+          "name": "20th Century Studios",
+          "type": "subsidiary",
+          "desc": "Film and television studio",
+          "stake": "100%"
+        },
+        {
+          "name": "Searchlight Pictures",
+          "type": "subsidiary",
+          "desc": "Independent film distributor",
+          "stake": "100%"
+        },
+        {
+          "name": "A+E Networks",
+          "type": "subsidiary",
+          "desc": "Cable television channels",
+          "stake": "50%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Bob Iger",
@@ -1007,7 +1755,68 @@
       "revenue": "$84.0B",
       "employees": "107,000",
       "description": "Consumer goods corporation",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Tide",
+          "type": "brand",
+          "desc": "Laundry detergent",
+          "stake": "100%"
+        },
+        {
+          "name": "Pampers",
+          "type": "brand",
+          "desc": "Diapers brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Gillette",
+          "type": "brand",
+          "desc": "Shaving products",
+          "stake": "100%"
+        },
+        {
+          "name": "Crest",
+          "type": "brand",
+          "desc": "Toothpaste brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Head & Shoulders",
+          "type": "brand",
+          "desc": "Anti-dandruff shampoo",
+          "stake": "100%"
+        },
+        {
+          "name": "Dawn",
+          "type": "brand",
+          "desc": "Dish soap brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Febreze",
+          "type": "brand",
+          "desc": "Fabric freshener",
+          "stake": "100%"
+        },
+        {
+          "name": "Charmin",
+          "type": "brand",
+          "desc": "Toilet paper brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Bounty",
+          "type": "brand",
+          "desc": "Paper towel brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Olay",
+          "type": "brand",
+          "desc": "Skincare brand",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Jon Moeller",
@@ -1028,7 +1837,20 @@
       "revenue": "$86.4B",
       "employees": "226,000",
       "description": "Home improvement retail",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Lowe's Pro",
+          "type": "brand",
+          "desc": "Professional contractor division",
+          "stake": "100%"
+        },
+        {
+          "name": "Lowe's Supply",
+          "type": "brand",
+          "desc": "Lumber and building materials",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Marvin Ellison",
@@ -1044,15 +1866,40 @@
       "industry": "Logistics",
       "sector": "Industrials",
       "hq": "Atlanta, GA",
-      "ceo": "Carol Tom\u00e9",
+      "ceo": "Carol Tomé",
       "founded": "1907",
       "revenue": "$91.1B",
       "employees": "382,000",
       "description": "Package delivery and logistics",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "UPS Ground",
+          "type": "brand",
+          "desc": "Ground package delivery",
+          "stake": "100%"
+        },
+        {
+          "name": "UPS Air",
+          "type": "brand",
+          "desc": "Air cargo delivery",
+          "stake": "100%"
+        },
+        {
+          "name": "UPS Supply Chain",
+          "type": "brand",
+          "desc": "Logistics and freight division",
+          "stake": "100%"
+        },
+        {
+          "name": "UPS Healthcare",
+          "type": "brand",
+          "desc": "Cold chain logistics",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
-          "name": "Carol Tom\u00e9",
+          "name": "Carol Tomé",
           "role": "CEO"
         }
       ]
@@ -1070,7 +1917,26 @@
       "revenue": "$54.2B",
       "employees": "124,800",
       "description": "Semiconductor manufacturer",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Mobileye",
+          "type": "subsidiary",
+          "desc": "Self-driving car technology",
+          "stake": "100%"
+        },
+        {
+          "name": "Altera",
+          "type": "subsidiary",
+          "desc": "Programmable logic devices",
+          "stake": "100%"
+        },
+        {
+          "name": "Intel Arc",
+          "type": "brand",
+          "desc": "Discrete graphics cards",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Pat Gelsinger",
@@ -1175,7 +2041,26 @@
       "revenue": "$42.0B",
       "employees": "115,000",
       "description": "Medical devices and diagnostics",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "FreeStyle Libre",
+          "type": "brand",
+          "desc": "Continuous glucose monitor",
+          "stake": "100%"
+        },
+        {
+          "name": "Abbott Nutrition",
+          "type": "brand",
+          "desc": "Nutritional products division",
+          "stake": "100%"
+        },
+        {
+          "name": "Abbott Diagnostics",
+          "type": "brand",
+          "desc": "Diagnostic testing division",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Robert Ford",
@@ -1217,7 +2102,32 @@
       "revenue": "$54.2B",
       "employees": "329,000",
       "description": "Off-price retail",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "T.J. Maxx",
+          "type": "brand",
+          "desc": "Off-price department store",
+          "stake": "100%"
+        },
+        {
+          "name": "Marshalls",
+          "type": "brand",
+          "desc": "Off-price department store",
+          "stake": "100%"
+        },
+        {
+          "name": "HomeGoods",
+          "type": "brand",
+          "desc": "Home furnishing store",
+          "stake": "100%"
+        },
+        {
+          "name": "Sierra Trading",
+          "type": "brand",
+          "desc": "Off-price outdoor apparel",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Ernie Herrman",
@@ -1238,7 +2148,20 @@
       "revenue": "$60.5B",
       "employees": "74,600",
       "description": "Financial services",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "American Express Travel",
+          "type": "brand",
+          "desc": "Travel services division",
+          "stake": "100%"
+        },
+        {
+          "name": "American Express Banking",
+          "type": "brand",
+          "desc": "Banking services division",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Stephen Squeri",
@@ -1280,7 +2203,32 @@
       "revenue": "$57.0B",
       "employees": "84,900",
       "description": "Networking equipment",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Webex",
+          "type": "brand",
+          "desc": "Video conferencing platform",
+          "stake": "100%"
+        },
+        {
+          "name": "Meraki",
+          "type": "subsidiary",
+          "desc": "Cloud-managed networking",
+          "stake": "100%"
+        },
+        {
+          "name": "AppDynamics",
+          "type": "subsidiary",
+          "desc": "Application performance monitoring",
+          "stake": "100%"
+        },
+        {
+          "name": "Duo Security",
+          "type": "subsidiary",
+          "desc": "Multi-factor authentication",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Chuck Robbins",
@@ -1343,7 +2291,20 @@
       "revenue": "$54.6B",
       "employees": "101,100",
       "description": "Cable and internet",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Spectrum",
+          "type": "brand",
+          "desc": "Cable internet/TV/phone",
+          "stake": "100%"
+        },
+        {
+          "name": "Spectrum Mobile",
+          "type": "brand",
+          "desc": "Mobile virtual network operator",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Chris Winfrey",
@@ -1490,7 +2451,32 @@
       "revenue": "$90.2B",
       "employees": "547,000",
       "description": "Package delivery",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "FedEx Express",
+          "type": "brand",
+          "desc": "Air express delivery",
+          "stake": "100%"
+        },
+        {
+          "name": "FedEx Ground",
+          "type": "brand",
+          "desc": "Ground parcel delivery",
+          "stake": "100%"
+        },
+        {
+          "name": "FedEx Freight",
+          "type": "brand",
+          "desc": "Freight shipping",
+          "stake": "100%"
+        },
+        {
+          "name": "FedEx Office",
+          "type": "brand",
+          "desc": "Print and document services",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Raj Subramaniam",
@@ -1532,7 +2518,32 @@
       "revenue": "$51.2B",
       "employees": "83,700",
       "description": "Athletic footwear and apparel",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Jordan Brand",
+          "type": "brand",
+          "desc": "Athletic footwear and apparel",
+          "stake": "100%"
+        },
+        {
+          "name": "Converse",
+          "type": "subsidiary",
+          "desc": "Athletic shoe brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Hurley",
+          "type": "subsidiary",
+          "desc": "Surf and skate apparel",
+          "stake": "100%"
+        },
+        {
+          "name": "Nike ACG",
+          "type": "brand",
+          "desc": "Outdoor apparel line",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "John Donahoe",
@@ -1595,7 +2606,38 @@
       "revenue": "$53.0B",
       "employees": "164,000",
       "description": "Database and cloud software",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Oracle Cloud",
+          "type": "brand",
+          "desc": "Cloud computing services",
+          "stake": "100%"
+        },
+        {
+          "name": "Java",
+          "type": "brand",
+          "desc": "Programming language platform",
+          "stake": "100%"
+        },
+        {
+          "name": "MySQL",
+          "type": "brand",
+          "desc": "Open-source database",
+          "stake": "100%"
+        },
+        {
+          "name": "NetSuite",
+          "type": "subsidiary",
+          "desc": "Cloud ERP software",
+          "stake": "100%"
+        },
+        {
+          "name": "Cerner",
+          "type": "subsidiary",
+          "desc": "Healthcare IT solutions",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Safra Catz",
@@ -1616,7 +2658,26 @@
       "revenue": "$67.9B",
       "employees": "125,000",
       "description": "Industrial conglomerate",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "GE Aerospace",
+          "type": "brand",
+          "desc": "Aircraft engine division",
+          "stake": "100%"
+        },
+        {
+          "name": "GE HealthCare",
+          "type": "brand",
+          "desc": "Medical imaging division",
+          "stake": "100%"
+        },
+        {
+          "name": "GE Vernova",
+          "type": "brand",
+          "desc": "Energy and power division",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Larry Culp",
@@ -1637,7 +2698,32 @@
       "revenue": "$36.7B",
       "employees": "97,000",
       "description": "Industrial conglomerate",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Honeywell Aerospace",
+          "type": "brand",
+          "desc": "Aerospace systems division",
+          "stake": "100%"
+        },
+        {
+          "name": "Honeywell Building Technologies",
+          "type": "brand",
+          "desc": "Building automation division",
+          "stake": "100%"
+        },
+        {
+          "name": "Honeywell Safety",
+          "type": "brand",
+          "desc": "Industrial safety division",
+          "stake": "100%"
+        },
+        {
+          "name": "Honeywell UOP",
+          "type": "brand",
+          "desc": "Petrochemical refining technology",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Vimal Kapur",
@@ -1658,7 +2744,32 @@
       "revenue": "$67.6B",
       "employees": "122,000",
       "description": "Aerospace and defense",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Skunk Works",
+          "type": "brand",
+          "desc": "Advanced aircraft development",
+          "stake": "100%"
+        },
+        {
+          "name": "Lockheed Martin Space",
+          "type": "brand",
+          "desc": "Space systems division",
+          "stake": "100%"
+        },
+        {
+          "name": "Lockheed Martin Missiles",
+          "type": "brand",
+          "desc": "Missile and fire control",
+          "stake": "100%"
+        },
+        {
+          "name": "Sikorsky Aircraft",
+          "type": "subsidiary",
+          "desc": "Helicopter manufacturer",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Jim Taiclet",
@@ -1679,7 +2790,38 @@
       "revenue": "$32.7B",
       "employees": "92,000",
       "description": "Industrial conglomerate",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Post-it",
+          "type": "brand",
+          "desc": "Adhesive note products",
+          "stake": "100%"
+        },
+        {
+          "name": "Scotch",
+          "type": "brand",
+          "desc": "Adhesive tape brand",
+          "stake": "100%"
+        },
+        {
+          "name": "3M Health Care",
+          "type": "brand",
+          "desc": "Medical products division",
+          "stake": "100%"
+        },
+        {
+          "name": "3M Industrial",
+          "type": "brand",
+          "desc": "Industrial adhesive and abrasive",
+          "stake": "100%"
+        },
+        {
+          "name": "Command",
+          "type": "brand",
+          "desc": "Damage-free hanging strips",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Bill Brown",
@@ -1700,7 +2842,20 @@
       "revenue": "$60.9B",
       "employees": "29,600",
       "description": "Graphics processing units",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Mellanox Technologies",
+          "type": "subsidiary",
+          "desc": "High-performance networking",
+          "stake": "100%"
+        },
+        {
+          "name": "Cumulus Networks",
+          "type": "subsidiary",
+          "desc": "Networking software",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Jensen Huang",
@@ -1721,7 +2876,38 @@
       "revenue": "$45.8B",
       "employees": "79,000",
       "description": "Beverage corporation",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Sprite",
+          "type": "brand",
+          "desc": "Lemon-lime soft drink",
+          "stake": "100%"
+        },
+        {
+          "name": "Fanta",
+          "type": "brand",
+          "desc": "Fruit-flavored soft drink",
+          "stake": "100%"
+        },
+        {
+          "name": "Minute Maid",
+          "type": "brand",
+          "desc": "Juice brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Dasani",
+          "type": "brand",
+          "desc": "Bottled water brand",
+          "stake": "100%"
+        },
+        {
+          "name": "Powerade",
+          "type": "brand",
+          "desc": "Sports drink brand",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "James Quincey",
@@ -1742,7 +2928,32 @@
       "revenue": "$35.8B",
       "employees": "20,000",
       "description": "Semiconductor and software",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Broadcom Semiconductor",
+          "type": "brand",
+          "desc": "Semiconductor products division",
+          "stake": "100%"
+        },
+        {
+          "name": "VMware",
+          "type": "subsidiary",
+          "desc": "Cloud virtualization software",
+          "stake": "100%"
+        },
+        {
+          "name": "CA Technologies",
+          "type": "subsidiary",
+          "desc": "Enterprise IT management software",
+          "stake": "100%"
+        },
+        {
+          "name": "Symantec Enterprise",
+          "type": "subsidiary",
+          "desc": "Enterprise cybersecurity",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Hock Tan",
@@ -1763,7 +2974,26 @@
       "revenue": "$78.6B",
       "employees": "72,000",
       "description": "Mobile network operator",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "T-Mobile Consumer",
+          "type": "brand",
+          "desc": "Consumer mobile service",
+          "stake": "100%"
+        },
+        {
+          "name": "T-Mobile Business",
+          "type": "brand",
+          "desc": "Business mobile service",
+          "stake": "100%"
+        },
+        {
+          "name": "Sprint",
+          "type": "subsidiary",
+          "desc": "Mobile network operator",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Mike Sievert",
@@ -1784,7 +3014,26 @@
       "revenue": "$52.8B",
       "employees": "137,400",
       "description": "Airline",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "American Eagle",
+          "type": "brand",
+          "desc": "Regional airline network",
+          "stake": "100%"
+        },
+        {
+          "name": "American Cargo",
+          "type": "brand",
+          "desc": "Air freight division",
+          "stake": "100%"
+        },
+        {
+          "name": "American Airlines Vacations",
+          "type": "brand",
+          "desc": "Travel package division",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Robert Isom",
@@ -1805,7 +3054,26 @@
       "revenue": "$58.0B",
       "employees": "103,000",
       "description": "Airline",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Delta Connection",
+          "type": "brand",
+          "desc": "Regional airline network",
+          "stake": "100%"
+        },
+        {
+          "name": "Delta Cargo",
+          "type": "brand",
+          "desc": "Air freight division",
+          "stake": "100%"
+        },
+        {
+          "name": "Delta Vacations",
+          "type": "brand",
+          "desc": "Travel package division",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Ed Bastian",
@@ -1826,7 +3094,32 @@
       "revenue": "$53.7B",
       "employees": "103,000",
       "description": "Airline",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "United Express",
+          "type": "brand",
+          "desc": "Regional airline network",
+          "stake": "100%"
+        },
+        {
+          "name": "United Cargo",
+          "type": "brand",
+          "desc": "Air freight division",
+          "stake": "100%"
+        },
+        {
+          "name": "United Vacations",
+          "type": "brand",
+          "desc": "Travel package division",
+          "stake": "100%"
+        },
+        {
+          "name": "MileagePlus",
+          "type": "brand",
+          "desc": "Frequent flyer program",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Scott Kirby",
@@ -1847,7 +3140,32 @@
       "revenue": "$61.9B",
       "employees": "288,000",
       "description": "Information technology",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Red Hat",
+          "type": "subsidiary",
+          "desc": "Enterprise open-source software",
+          "stake": "100%"
+        },
+        {
+          "name": "IBM Cloud",
+          "type": "brand",
+          "desc": "Cloud computing platform",
+          "stake": "100%"
+        },
+        {
+          "name": "IBM Watson",
+          "type": "brand",
+          "desc": "AI and data platform",
+          "stake": "100%"
+        },
+        {
+          "name": "IBM Consulting",
+          "type": "brand",
+          "desc": "IT services and consulting",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Arvind Krishna",
@@ -1869,7 +3187,32 @@
       "revenue": "$68.9B",
       "employees": "185,000",
       "description": "Aerospace and defense",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Collins Aerospace",
+          "type": "subsidiary",
+          "desc": "Aerospace components",
+          "stake": "100%"
+        },
+        {
+          "name": "Pratt & Whitney",
+          "type": "subsidiary",
+          "desc": "Aircraft engine manufacturer",
+          "stake": "100%"
+        },
+        {
+          "name": "Raytheon Missiles",
+          "type": "brand",
+          "desc": "Missile and defense systems",
+          "stake": "100%"
+        },
+        {
+          "name": "Raytheon Intelligence",
+          "type": "brand",
+          "desc": "Intelligence and space systems",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Chris Calio",
@@ -1890,7 +3233,32 @@
       "revenue": "$77.8B",
       "employees": "171,000",
       "description": "Aerospace manufacturer",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Boeing Commercial",
+          "type": "brand",
+          "desc": "Commercial airplane division",
+          "stake": "100%"
+        },
+        {
+          "name": "Boeing Defense",
+          "type": "brand",
+          "desc": "Defense and space division",
+          "stake": "100%"
+        },
+        {
+          "name": "Boeing Global Services",
+          "type": "brand",
+          "desc": "Aviation services division",
+          "stake": "100%"
+        },
+        {
+          "name": "Jeppesen",
+          "type": "subsidiary",
+          "desc": "Aviation navigation data",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Dave Calhoun",
@@ -1911,7 +3279,20 @@
       "revenue": "$35.9B",
       "employees": "51,000",
       "description": "Semiconductor and telecommunications",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Snapdragon",
+          "type": "brand",
+          "desc": "Mobile processor platform",
+          "stake": "100%"
+        },
+        {
+          "name": "Qualcomm Technologies",
+          "type": "subsidiary",
+          "desc": "Semiconductor R&D division",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Cristiano Amon",
@@ -1932,7 +3313,26 @@
       "revenue": "$35.2B",
       "employees": "83,000",
       "description": "Tobacco company",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Marlboro",
+          "type": "brand",
+          "desc": "Cigarette brand (international)",
+          "stake": "100%"
+        },
+        {
+          "name": "IQOS",
+          "type": "brand",
+          "desc": "Heated tobacco device",
+          "stake": "100%"
+        },
+        {
+          "name": "Zyn",
+          "type": "brand",
+          "desc": "Nicotine pouches",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Jacek Olczak",
@@ -2379,7 +3779,26 @@
       "revenue": "$48.3B",
       "employees": "Various",
       "description": "Fortune 500 company ranked #117 in 2024",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "iShares",
+          "type": "brand",
+          "desc": "ETF management division",
+          "stake": "100%"
+        },
+        {
+          "name": "BlackRock Aladdin",
+          "type": "brand",
+          "desc": "Risk management platform",
+          "stake": "100%"
+        },
+        {
+          "name": "BlackRock Active",
+          "type": "brand",
+          "desc": "Active investment management",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": []
     },
     "state-street": {
@@ -2459,7 +3878,26 @@
       "revenue": "$47.8B",
       "employees": "Various",
       "description": "Fortune 500 company ranked #122 in 2024",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Schwab Brokerage",
+          "type": "brand",
+          "desc": "Discount brokerage service",
+          "stake": "100%"
+        },
+        {
+          "name": "Schwab Bank",
+          "type": "brand",
+          "desc": "Banking services",
+          "stake": "100%"
+        },
+        {
+          "name": "TD Ameritrade",
+          "type": "subsidiary",
+          "desc": "Online brokerage platform",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": []
     },
     "fidelity-fmr": {
@@ -3404,7 +4842,26 @@
       "revenue": "$41.9B",
       "employees": "Various",
       "description": "Fortune 500 company ranked #181 in 2024",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Dow Packaging",
+          "type": "brand",
+          "desc": "Packaging and specialty plastics",
+          "stake": "100%"
+        },
+        {
+          "name": "Dow Industrial",
+          "type": "brand",
+          "desc": "Industrial intermediates",
+          "stake": "100%"
+        },
+        {
+          "name": "Dow Consumer",
+          "type": "brand",
+          "desc": "Consumer chemicals and materials",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": []
     },
     "dupont": {
@@ -4578,7 +6035,32 @@
       "revenue": "$21.6B",
       "employees": "30,000",
       "description": "Fortune 500 company ranked #254 in 2024",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Booking.com",
+          "type": "brand",
+          "desc": "Online travel booking",
+          "stake": "100%"
+        },
+        {
+          "name": "Priceline",
+          "type": "brand",
+          "desc": "Discount travel booking",
+          "stake": "100%"
+        },
+        {
+          "name": "Kayak",
+          "type": "brand",
+          "desc": "Travel search engine",
+          "stake": "100%"
+        },
+        {
+          "name": "OpenTable",
+          "type": "subsidiary",
+          "desc": "Online restaurant reservations",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [],
       "desc": "Online travel agency"
     },
@@ -4612,7 +6094,26 @@
       "revenue": "$10.7B",
       "employees": "7,000",
       "description": "Fortune 500 company ranked #256 in 2024",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Airbnb Homes",
+          "type": "brand",
+          "desc": "Home rental platform",
+          "stake": "100%"
+        },
+        {
+          "name": "Airbnb Experiences",
+          "type": "brand",
+          "desc": "Activity booking platform",
+          "stake": "100%"
+        },
+        {
+          "name": "Airbnb Luxe",
+          "type": "brand",
+          "desc": "Luxury vacation rentals",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [],
       "desc": "Short-term rental marketplace"
     },
@@ -4629,7 +6130,26 @@
       "revenue": "$41.3B",
       "employees": "32,000",
       "description": "Fortune 500 company ranked #257 in 2024",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Uber Rides",
+          "type": "brand",
+          "desc": "Ride-hailing service",
+          "stake": "100%"
+        },
+        {
+          "name": "Uber Eats",
+          "type": "brand",
+          "desc": "Food delivery platform",
+          "stake": "100%"
+        },
+        {
+          "name": "Uber Freight",
+          "type": "brand",
+          "desc": "Trucking logistics platform",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [],
       "desc": "Ride sharing and food delivery"
     },
@@ -4680,7 +6200,26 @@
       "revenue": "$31.3B",
       "employees": "27,000",
       "description": "Fortune 500 company ranked #260 in 2024",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Venmo",
+          "type": "brand",
+          "desc": "Peer-to-peer payment app",
+          "stake": "100%"
+        },
+        {
+          "name": "PayPal Checkout",
+          "type": "brand",
+          "desc": "Online payment processing",
+          "stake": "100%"
+        },
+        {
+          "name": "Braintree",
+          "type": "subsidiary",
+          "desc": "Payment gateway for businesses",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [],
       "desc": "Online payments platform"
     },
@@ -5099,7 +6638,7 @@
       "industry": "E-Commerce Platform",
       "sector": "Technology",
       "hq": "Ottawa, Canada",
-      "ceo": "Tobi L\u00fctke",
+      "ceo": "Tobi Lütke",
       "founded": "2004",
       "revenue": "$7.8B",
       "employees": "11,000",
@@ -6087,9 +7626,9 @@
       "subsidiaries": [],
       "keyPeople": []
     },
-    "nestl\u00e9-us": {
-      "id": "nestl\u00e9-us",
-      "name": "Nestl\u00e9 (US)",
+    "nestlé-us": {
+      "id": "nestlé-us",
+      "name": "Nestlé (US)",
       "ticker": null,
       "cik": null,
       "industry": "Various",
@@ -6231,9 +7770,9 @@
       "subsidiaries": [],
       "keyPeople": []
     },
-    "herm\u00e8s-us": {
-      "id": "herm\u00e8s-us",
-      "name": "Herm\u00e8s (US)",
+    "hermès-us": {
+      "id": "hermès-us",
+      "name": "Hermès (US)",
       "ticker": null,
       "cik": null,
       "industry": "Various",
@@ -6503,9 +8042,9 @@
       "subsidiaries": [],
       "keyPeople": []
     },
-    "est\u00e9e-lauder": {
-      "id": "est\u00e9e-lauder",
-      "name": "Est\u00e9e Lauder",
+    "estée-lauder": {
+      "id": "estée-lauder",
+      "name": "Estée Lauder",
       "ticker": null,
       "cik": null,
       "industry": "Various",
@@ -6519,9 +8058,9 @@
       "subsidiaries": [],
       "keyPeople": []
     },
-    "lor\u00e9al-us": {
-      "id": "lor\u00e9al-us",
-      "name": "L'Or\u00e9al (US)",
+    "loréal-us": {
+      "id": "loréal-us",
+      "name": "L'Oréal (US)",
       "ticker": null,
       "cik": null,
       "industry": "Various",
@@ -6580,7 +8119,26 @@
       "revenue": "$22.3B",
       "employees": "Various",
       "description": "Fortune 500 company ranked #377 in 2024",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Blackstone Real Estate",
+          "type": "brand",
+          "desc": "Real estate investment division",
+          "stake": "100%"
+        },
+        {
+          "name": "Blackstone Private Equity",
+          "type": "brand",
+          "desc": "Private equity division",
+          "stake": "100%"
+        },
+        {
+          "name": "Blackstone Credit",
+          "type": "brand",
+          "desc": "Credit and insurance division",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": []
     },
     "kkr": {
@@ -8845,31 +10403,35 @@
       "employees": "26,000",
       "founded": "1969",
       "description": "Semiconductor company (CPU and GPU)",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "AMD Ryzen",
+          "type": "brand",
+          "desc": "Desktop processor line",
+          "stake": "100%"
+        },
+        {
+          "name": "AMD EPYC",
+          "type": "brand",
+          "desc": "Data center processor line",
+          "stake": "100%"
+        },
+        {
+          "name": "AMD Radeon",
+          "type": "brand",
+          "desc": "Graphics processor line",
+          "stake": "100%"
+        },
+        {
+          "name": "Xilinx",
+          "type": "subsidiary",
+          "desc": "FPGA and adaptive computing",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Lisa Su",
-          "role": "CEO"
-        }
-      ]
-    },
-    "sq": {
-      "id": "sq",
-      "name": "Block (Square)",
-      "ticker": "SQ",
-      "cik": "0001512673",
-      "industry": "Financial Technology",
-      "sector": "Technology",
-      "hq": "San Francisco, CA",
-      "ceo": "Jack Dorsey",
-      "revenue": "$22.5B",
-      "employees": "12,000",
-      "founded": "2009",
-      "description": "Square and Cash App",
-      "subsidiaries": [],
-      "keyPeople": [
-        {
-          "name": "Jack Dorsey",
           "role": "CEO"
         }
       ]
@@ -8887,7 +10449,26 @@
       "employees": "7,000",
       "founded": "2011",
       "description": "Video conferencing",
-      "subsidiaries": [],
+      "subsidiaries": [
+        {
+          "name": "Zoom Meetings",
+          "type": "brand",
+          "desc": "Video conferencing platform",
+          "stake": "100%"
+        },
+        {
+          "name": "Zoom Phone",
+          "type": "brand",
+          "desc": "Cloud phone system",
+          "stake": "100%"
+        },
+        {
+          "name": "Zoom Webinar",
+          "type": "brand",
+          "desc": "Webinar platform",
+          "stake": "100%"
+        }
+      ],
       "keyPeople": [
         {
           "name": "Eric Yuan",
